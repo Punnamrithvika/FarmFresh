@@ -12,6 +12,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/signin")
+@CrossOrigin(origins = "http://localhost:5173") // Replace with your frontend URL
 public class UserController {
 
     @Autowired
