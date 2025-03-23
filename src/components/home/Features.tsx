@@ -5,33 +5,33 @@ import { Apple, Leaf, Truck, Users, MessageSquare, Clock } from "lucide-react";
 const features = [
   {
     icon: Apple,
-    title: "Fresh Local Produce",
-    description: "Get the freshest fruits and vegetables directly from local farms to your table."
+    title: "Direct-to-Consumer Marketplace",
+    description: "Eliminates middlemen, ensuring 20-30% higher farmer profits and 15-30% customer savings."
   },
   {
     icon: Leaf,
-    title: "Natural & Sustainable",
-    description: "Support environmentally responsible farming practices that prioritize sustainability."
+    title: "AI-Powered Quality Detection",
+    description: "Uses AI-based image processing to verify freshness, grading, and quality, reducing fraud and waste."
   },
   {
     icon: Truck,
-    title: "Direct Delivery",
-    description: "Enjoy convenient delivery options from farms to your doorstep."
+    title: "Speech-to-Text & Multilingual Support",
+    description: "Enables voice-based product listing in native languages, making the platform accessible to all farmers."
   },
   {
     icon: Users,
-    title: "Community Support",
-    description: "Build relationships with local farmers and strengthen your community."
+    title: "Pre-Booking System",
+    description: "Allows customers to reserve fresh produce before harvest, ensuring steady farmer income and fresh deliveries."
   },
   {
     icon: MessageSquare,
-    title: "Direct Communication",
-    description: "Message farmers directly to learn about their products and practices."
+    title: "Farm Tour & Appointment Booking",
+    description: "Lets customers visit farms, verify quality, and engage directly with farmers, fostering trust and transparency."
   },
   {
     icon: Clock,
-    title: "Flexible Scheduling",
-    description: "Book appointments and pickups that work with your schedule."
+    title: "Review & Rating System",
+    description: "Ensures verified customer feedback and AI-based fraud detection, eliminating fake reviews."
   }
 ];
 
