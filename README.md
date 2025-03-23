@@ -1,6 +1,6 @@
 # FarmFresh Connect
 
-![FarmFresh Logo](path/to/logo.png)
+
 
 ## Overview
 FarmFresh Connect is a platform that directly links farmers with consumers, eliminating middlemen to provide fresh, affordable produce. By integrating AI-powered quality detection, multilingual support, and location-based discovery, we ensure a seamless farm-to-table experience.
