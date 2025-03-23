@@ -1,4 +1,3 @@
-
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -17,6 +16,12 @@ import ResetPassword from "./pages/ResetPassword";
 import OTPVerification from "./pages/OTPVerification";
 import Unauthorized from "./pages/Unauthorized";
 import RoleSelection from "./pages/RoleSelection";
+import Profile from "./pages/Profile";
+import NearbyFarmers from "./pages/NearbyFarmers";
+import FarmerDashboard from "./pages/FarmerDashboard";
+import Products from "./pages/Products"; // Import Products component
+import Header from "./components/layout/Header"; // Import Header component
+import Footer from "./components/layout/Footer"; // Import Footer component
 
 const queryClient = new QueryClient();
 
@@ -27,6 +32,7 @@ const App = () => (
         <Toaster />
         <Sonner />
         <BrowserRouter>
+          <Header /> {/* Add Header component */}
           <AnimatePresence mode="wait">
             <Routes>
               {/* Public routes */}
@@ -41,7 +47,6 @@ const App = () => (
               <Route path="/unauthorized" element={<Unauthorized />} />
               
               {/* Protected routes for all authenticated users */}
-              {/* Add protected routes here, for example:
               <Route 
                 path="/profile" 
                 element={
@@ -50,21 +55,19 @@ const App = () => (
                   </ProtectedRoute>
                 } 
               />
-              */}
               
               {/* Role-specific protected routes */}
-              {/* For customer-only routes:
+              {/* For customer-only routes */}
               <Route 
-                path="/browse-farmers" 
+                path="/nearbyfarmers" 
                 element={
                   <ProtectedRoute requiredRole="customer">
-                    <BrowseFarmers />
+                    <NearbyFarmers />
                   </ProtectedRoute>
                 } 
               />
-              */}
               
-              {/* For farmer-only routes:
+              {/* For farmer-only routes */}
               <Route 
                 path="/farmer-dashboard" 
                 element={
@@ -73,12 +76,18 @@ const App = () => (
                   </ProtectedRoute>
                 } 
               />
-              */}
+              
+              {/* For displaying farmers list */}
+              <Route 
+                path="/products" 
+                element={<Products />} 
+              />
               
               {/* Catch-all route */}
               <Route path="*" element={<NotFound />} />
             </Routes>
           </AnimatePresence>
+          <Footer /> {/* Add Footer component */}
         </BrowserRouter>
       </TooltipProvider>
     </AuthProvider>
