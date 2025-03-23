@@ -3,32 +3,32 @@
 ![FarmFresh Logo](path/to/logo.png)
 
 ## Overview
-FarmFresh Connect is a next-generation platform that directly links farmers with consumers, eliminating middlemen to provide fresh, affordable produce. By integrating AI-powered quality detection, multilingual support, and location-based discovery, we ensure a seamless and transparent farm-to-table experience.
+FarmFresh Connect is a platform that directly links farmers with consumers, eliminating middlemen to provide fresh, affordable produce. By integrating AI-powered quality detection, multilingual support, and location-based discovery, we ensure a seamless farm-to-table experience.
 
 ## Key Features
 1. **Direct Farmer-to-Consumer Marketplace**
-- **No middlemen:** Farmers sell directly to consumers.
-- **Higher profits:** Ensures higher profits for farmers and fresher produce for buyers.
+   - Farmers sell directly to consumers.
+   - Ensures higher profits for farmers and fresher produce for buyers.
 
 2. **AI-Powered Quality Detection**
-- **AI-based image processing:** Uses advanced algorithms for freshness verification.
-- **Reduces food waste:** Ensures only high-quality produce is listed.
+   - Uses AI-based image processing for freshness verification.
+   - Reduces food waste by ensuring only high-quality produce is listed.
 
-3. **Review & Rating System for Trust**
-- **Verified ratings:** Verified buyers can rate farmers based on their experience.
-- **Informed decisions:** Helps new customers make informed purchasing decisions.
+3. **Review & Rating System**
+   - Verified buyers can rate farmers based on their experience.
+   - Helps new customers make informed purchasing decisions.
 
 4. **Speech-to-Text & Multilingual Support**
-- **Multiple languages:** Supports multiple languages and voice input for easy product listing.
-- **Accessibility:** Helps non-English-speaking farmers join the platform effortlessly.
+   - Supports multiple languages and voice input for easy product listing.
+   - Helps non-English-speaking farmers join the platform effortlessly.
 
 5. **Pre-Booking & Farm Tour Appointments**
-- **Pre-booking:** Customers can pre-book produce and schedule farm visits.
-- **Better planning:** Helps farmers plan better and strengthens consumer trust.
+   - Customers can pre-book produce and schedule farm visits.
+   - Helps farmers plan better and strengthens consumer trust.
 
 6. **Location-Based Farmer Discovery**
-- **Local farmer discovery:** Users can find local farmers based on their pincode or GPS location.
-- **Supports local agriculture:** Enables faster deliveries and supports local farmers.
+   - Users can find local farmers based on their pincode or GPS location.
+   - Supports local agriculture and enables faster deliveries.
 
 ## Why Choose FarmFresh Connect?
 - **No middlemen:** Higher earnings for farmers
@@ -53,19 +53,18 @@ To get started with FarmFresh Connect, follow these steps:
     ```
 4. Run the application:
     ```sh
-    npm start
+    npm run dev
     ```
 
 ## Technologies Used
-FarmFresh Connect is built using a robust and diverse technology stack to ensure performance, scalability, and maintainability:
-- **TypeScript:** Providing a strong type system for enhanced code reliability and maintainability.
-- **Java:** Powering backend services and API management for seamless data handling and integration.
-- **CSS:** Delivering elegant and responsive designs to create an engaging user experience.
-- **Python:** Facilitating data processing, analytics, and machine learning capabilities.
-- **Other:** Incorporating various libraries and tools to enhance functionality and streamline development.
+- **TypeScript:** Ensuring robust and type-safe code.
+- **Java:** Backend services and API management.
+- **CSS:** Styling and responsive design.
+- **Python:** Data processing and analytics.
+- **Other:** Various libraries and tools to enhance functionality.
 
 ## Contributing
-We welcome contributions from the community to help us improve and expand FarmFresh Connect. To contribute, please follow these steps:
+We welcome contributions from the community. To contribute, please follow these steps:
 1. Fork the repository.
 2. Create a new branch:
     ```sh
@@ -79,16 +78,16 @@ We welcome contributions from the community to help us improve and expand FarmFr
     ```sh
     git push origin feature/your-feature-name
     ```
-5. Create a pull request and describe your changes. Please ensure your code adheres to our coding standards and includes appropriate tests.
+5. Create a pull request and describe your changes.
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ## Contact
-For any questions, feedback, or support, please contact us at [support@farmfresh.com](mailto:support@farmfresh.com). We value your input and are here to assist you.
+For questions, feedback, or support, please contact us at [support@farmfresh.com](mailto:support@farmfresh.com).
 
 ## Acknowledgements
-We would like to thank all the contributors and supporters who have helped make FarmFresh Connect a reality. Your dedication and hard work are greatly appreciated.
+We thank all contributors and supporters who have helped make FarmFresh Connect a reality. Your dedication and hard work are greatly appreciated.
 
 ---
 
