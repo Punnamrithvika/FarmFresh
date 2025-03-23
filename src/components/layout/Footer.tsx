@@ -118,7 +118,7 @@ const Footer = () => {
         
         <div className="mt-16 pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
-            © 2023 FarmFresh Connect. All rights reserved.
+            © 2025 FarmFresh Connect. All rights reserved.
           </p>
           <div className="flex space-x-6 text-sm">
             <Link to="/privacy-policy" className="text-muted-foreground hover:text-primary transition-colors">
