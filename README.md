@@ -60,16 +60,15 @@ By leveraging **AI and smart automation**, we enhance **product quality verifica
 - Responsive UI for seamless user experience
 
 ### **Backend**
-- Node.js, Express.js, MySQL
+- Springboot, MySQL
 - Authentication, API management, and real-time inventory tracking
 
 ### **AI & Machine Learning**
 - Python, TensorFlow, OpenCV (for AI-powered quality detection)
-- Google Cloud APIs (for Speech-to-Text & Translation)
+- Google trans libraty (for Speech-to-Text & Translation)
 
 ### **Other Integrations**
 - Google Maps API (for location-based farmer discovery)
-- Firebase Firestore (for real-time stock updates)
 
 ## 🏗️ Installation & Setup
 Follow these steps to set up FarmFresh Connect on your local machine:
