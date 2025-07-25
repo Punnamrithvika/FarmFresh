@@ -12,7 +12,7 @@
 9. [Acknowledgements](#-acknowledgements)
 
 ## 🚀 Overview
-**FarmFresh Connect** is a **tech-enabled direct-to-consumer marketplace** that empowers farmers by eliminating intermediaries, providing consumers with **fresh, affordable produce**. The platform integrates **AI-powered quality detection, speech-to-text & multilingual support, farm tours, pre-booking, and location-based discovery** to create a **seamless, transparent, and efficient farm-to-table ecosystem**.
+**FarmFresh Connect** is a **tech-enabled direct farmer-to-consumer marketplace** that empowers farmers by eliminating intermediaries, providing consumers with **fresh, affordable produce**. The platform integrates **AI-powered quality detection, speech-to-text & multilingual support, farm tours, pre-booking, and location-based discovery** to create a **seamless, transparent, and efficient farm-to-table ecosystem**.
 
 By leveraging **AI and smart automation**, we enhance **product quality verification, accessibility, and direct engagement between farmers and buyers**. A standout feature is **Speech-to-Text & Multilingual Support**, allowing farmers to **list products and communicate with buyers using voice input in their native language**.
 
